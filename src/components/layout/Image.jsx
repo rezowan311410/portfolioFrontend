@@ -5,7 +5,14 @@ const Image = ({ imgsrc, className, onClick, itemId }) => {
     onClick(itemId);
   };
 
-  return <img onClick={handleClick} className={className} src={imgsrc} alt="portfolio-img" />;
+  return (
+    <img
+      onClick={handleClick}
+      className={className}
+      src={imgsrc}
+      alt="portfolio-img"
+    />
+  );
 };
 
 export default Image;

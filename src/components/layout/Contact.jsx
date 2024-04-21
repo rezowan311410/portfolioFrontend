@@ -116,13 +116,15 @@ const Contact = ({porps},ref) => {
            <div className='contact_res:flex'>
            <div className='w-[50%] contact_res:mt-4 lg:mt-0 mx-5 lg-mx-0 '>
                 {communication.map((item)=>(
-                   <div className='flex mt-6  ml-4  md:ml-12 lg:ml-0'>
+                 <>
+                     <div className='flex mt-6  ml-4  md:ml-12 lg:ml-0'>
                     <Image imgsrc={`http://localhost:1337${item.icon.data.attributes.url}`}/>
                     <div className='ml-3'>
                         <h2 className='font-mont font-normal text-[#7B7B7B] text-lg cursor-pointer'>{item.adname}</h2>
                         <h4 className='font-mont font-normal text-[11px] sm:text-sm text-[#979797] cursor-pointer'>{item.address}</h4>
                     </div>
                    </div>
+                 </>
                 ))}
             </div>
         
