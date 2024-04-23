@@ -1,6 +1,5 @@
 import axios from "axios";
 import { forwardRef, useEffect, useState } from "react";
-import Image from "./Image";
 
 const Banner = ({ props }, ref) => {
   let [hello, setHello] = useState("");
@@ -52,9 +51,10 @@ const Banner = ({ props }, ref) => {
         </div>
         <div className="lg:w-6/12">
           <div className="lg:mt-[141px] lg:ml-[156px]">
-            <Image
+            <img
               className="hidden lg:block"
-              imgsrc="../../../public/assets/profile.png"
+              src="../../assets/profile.png"
+              alt=""
             />
           </div>
         </div>

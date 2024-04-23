@@ -315,9 +315,9 @@ const Navbar = () => {
           <div className="md:flex mx-5 lg_res:mx-0">
             <div className="flex">
               <div className="w-3/12 w-44 h-12">
-                <Image
+                <img
                   className="w-full h-full"
-                  imgsrc="../../assets/logoremovebg.png"
+                  src="../../assets/logoremovebg.png"
                 />
               </div>
               <div className="md:hidden ml-auto" onClick={handleMenu}>
