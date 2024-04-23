@@ -54,7 +54,7 @@ const Banner = ({ props }, ref) => {
           <div className="lg:mt-[141px] lg:ml-[156px]">
             <Image
               className="hidden lg:block"
-              imgsrc="../../assets/profile.png"
+              imgsrc="../../../public/assets/profile.png"
             />
           </div>
         </div>
