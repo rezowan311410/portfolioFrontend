@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flex justify-evenly mx-5 lg_res:mx-0">
           <div className="w-[50%]">
             <h3 className="font-pop font-light text-[12px] text-[9px] contact_res:text-sm md:text-sm text-[#929292] py-[22px]">
-              {copy}
+              Copyright © 2024 Regaltheme
             </h3>
           </div>
           <div className="w-[50%] flex justify-end">
@@ -39,9 +39,7 @@ const Footer = () => {
                          text-[10px] contact_res:text-sm text-[10px] md:text-sm  text-[#929292] font-light lg:mr-[140px] py-[22px] cursor-pointer"
                 >
                   HERE IS MY{" "}
-                  <span className="text-[#36454F] font-bold">
-                    {item.social_media}
-                  </span>{" "}
+                  <span className="text-[#36454F] font-bold">LINKEDIN</span>{" "}
                   PROFILE
                 </h2>
               </div>

@@ -27,7 +27,7 @@ const Service = ({ props }, ref) => {
       <Container>
         <div className="flex justify-center">
           <h2 className="font-mont  font-bold text-[#494949] text-2xl">
-            {tittle}
+            MY SERVICES
           </h2>
         </div>
         <div className="flex justify-center relative mt-3">
@@ -59,6 +59,75 @@ const Service = ({ props }, ref) => {
                 <p className="m-auto mt-6 font-pop font-normal font-sm text-[#979797] leading-6">
                   I will build responsive website design and redesign, with
                   ReactJs, Next.Js and other equipment.
+                </p>
+              </div>
+            </div>
+            <div className="shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] mt-[65px]">
+              <div className="w-[270px] hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] hover:transition ease-in duration-300 flex  flex-col justify-center relative px-4 pt-10 pb-[74px] bg-[#F5F5F5] text-center group cursor-default">
+                <div
+                  className="w-9 h-9 m-auto group-hover:bg-[#494949]
+               group-hover:rounded-full"
+                >
+                  <MdOutlineWebAsset
+                    className="w-9 h-9 m-auto group-hover:bg-[#494949]
+               group-hover:rounded-full text-slate-600 group-hover:text-[#D1D1D1]"
+                  />
+                </div>
+                <h2
+                  className='m-auto after:absolute after:content-[""] after:w-[50px] after:h-[2px] after:bg-[#DBDBDB]
+                after:left-[41%]  after:top-[99px] mt-[42px] font-mont font-bold text-sm text-[#757575]'
+                >
+                  WEB DEVELOPMENT
+                </h2>
+                <p className="m-auto mt-6 font-pop font-normal font-sm text-[#979797] leading-6">
+                  I will build website development, with Node.Js, Express.Js,
+                  Strapi (CMS) and other equipment.
+                </p>
+              </div>
+            </div>
+            <div className="shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] mt-[65px]">
+              <div className="w-[270px] hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] hover:transition ease-in duration-300 flex  flex-col justify-center relative px-4 pt-10 pb-[74px] bg-[#F5F5F5] text-center group cursor-default">
+                <div
+                  className="w-9 h-9 m-auto group-hover:bg-[#494949]
+               group-hover:rounded-full"
+                >
+                  <MdOutlineWebAsset
+                    className="w-9 h-9 m-auto group-hover:bg-[#494949]
+               group-hover:rounded-full text-slate-600 group-hover:text-[#D1D1D1]"
+                  />
+                </div>
+                <h2
+                  className='m-auto after:absolute after:content-[""] after:w-[50px] after:h-[2px] after:bg-[#DBDBDB]
+                after:left-[41%]  after:top-[99px] mt-[42px] font-mont font-bold text-sm text-[#757575]'
+                >
+                  APP DEVELOPMENT
+                </h2>
+                <p className="m-auto mt-6 font-pop font-normal font-sm text-[#979797] leading-6">
+                  I have experience in building mobile applications using React
+                  Native. worked on projects using Android Studio.
+                </p>
+              </div>
+            </div>
+            <div className="shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] mt-[65px]">
+              <div className="w-[270px] hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] hover:transition ease-in duration-300 flex  flex-col justify-center relative px-4 pt-10 pb-[74px] bg-[#F5F5F5] text-center group cursor-default">
+                <div
+                  className="w-9 h-9 m-auto group-hover:bg-[#494949]
+               group-hover:rounded-full"
+                >
+                  <MdOutlineWebAsset
+                    className="w-9 h-9 m-auto group-hover:bg-[#494949]
+               group-hover:rounded-full text-slate-600 group-hover:text-[#D1D1D1]"
+                  />
+                </div>
+                <h2
+                  className='m-auto after:absolute after:content-[""] after:w-[50px] after:h-[2px] after:bg-[#DBDBDB]
+                after:left-[41%]  after:top-[99px] mt-[42px] font-mont font-bold text-sm text-[#757575]'
+                >
+                  GRAPHIC DESIGN
+                </h2>
+                <p className="m-auto mt-6 font-pop font-normal font-sm text-[#979797] leading-6">
+                  I am a professional web designer and I focus very strictly on
+                  the UI of a website and also learner
                 </p>
               </div>
             </div>
