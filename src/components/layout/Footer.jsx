@@ -31,19 +31,19 @@ const Footer = () => {
             </h3>
           </div>
           <div className="w-[50%] flex justify-end">
-            {media.map((item, index) => (
-              <div>
-                <h2
-                  onClick={() => handleLinkedin(index)}
-                  className="font-mont font-normal
+            <div>
+              <h2
+                onClick={() => handleLinkedin(index)}
+                className="font-mont font-normal
                          text-[10px] contact_res:text-sm text-[10px] md:text-sm  text-[#929292] font-light lg:mr-[140px] py-[22px] cursor-pointer"
-                >
-                  HERE IS MY{" "}
-                  <span className="text-[#36454F] font-bold">LINKEDIN</span>{" "}
-                  PROFILE
-                </h2>
-              </div>
-            ))}
+              >
+                HERE IS MY
+                <span className="text-[#36454F] font-bold">
+                  <a href="https://www.linkedin.com/in/abuhossen/">LINKEDIN</a>
+                </span>
+                PROFILE
+              </h2>
+            </div>
           </div>
         </div>
       </Container>
