@@ -181,7 +181,7 @@ const Navbar = () => {
         else if (
           window.innerWidth < 550 &&
           scrollAmount > 1200 &&
-          scrollAmount < 2650
+          scrollAmount < 1900
         ) {
           setportfolio(true);
           setAbout(false);
@@ -190,7 +190,7 @@ const Navbar = () => {
           window.innerWidth <= 1023 &&
           window.innerWidth > 576 &&
           scrollAmount > 950 &&
-          scrollAmount < 3450
+          scrollAmount < 1800
         ) {
           setportfolio(true);
           setAbout(false);
@@ -198,7 +198,7 @@ const Navbar = () => {
         } else if (
           window.innerWidth >= 1024 &&
           scrollAmount > 1200 &&
-          scrollAmount < 2400
+          scrollAmount < 1800
         ) {
           setportfolio(true);
           setAbout(false);
@@ -208,8 +208,8 @@ const Navbar = () => {
         //service part==============================================================
         else if (
           window.innerWidth < 576 &&
-          scrollAmount > 2650 &&
-          scrollAmount < 4550
+          scrollAmount > 1900 &&
+          scrollAmount < 3750
         ) {
           setService(true);
           setportfolio(false);
@@ -218,8 +218,8 @@ const Navbar = () => {
         } else if (
           window.innerWidth <= 1023 &&
           window.innerWidth > 576 &&
-          scrollAmount > 3450 &&
-          scrollAmount < 4400
+          scrollAmount > 1800 &&
+          scrollAmount < 2860
         ) {
           setService(true);
           setportfolio(false);
@@ -227,8 +227,8 @@ const Navbar = () => {
           setContact(false);
         } else if (
           window.innerWidth >= 1024 &&
-          scrollAmount > 2400 &&
-          scrollAmount < 3100
+          scrollAmount > 1800 &&
+          scrollAmount < 2400
         ) {
           setService(true);
           setportfolio(false);
@@ -253,19 +253,19 @@ const Navbar = () => {
         //   setContact(false)
         // }
         //contact=======================================================
-        else if (window.innerWidth < 576 && scrollAmount > 4550) {
+        else if (window.innerWidth < 576 && scrollAmount > 3750) {
           setContact(true);
           setTestmonial(false);
           setService(false);
         } else if (
           window.innerWidth <= 1023 &&
           window.innerWidth > 576 &&
-          scrollAmount > 4400
+          scrollAmount > 2860
         ) {
           setContact(true);
           setTestmonial(false);
           setService(false);
-        } else if (window.innerWidth >= 1024 && scrollAmount > 3000) {
+        } else if (window.innerWidth >= 1024 && scrollAmount > 2400) {
           setContact(true);
           setTestmonial(false);
           setService(false);
@@ -323,7 +323,7 @@ const Navbar = () => {
               <div className="md:hidden ml-auto" onClick={handleMenu}>
                 <Image
                   className="  mt-5 ml-auto"
-                  imgsrc={`http://localhost:1337${menuIcon}`}
+                  imgsrc="../../assets/3bar.png"
                 />
               </div>
             </div>
