@@ -334,21 +334,6 @@ const Portfolio = ({ props }, ref) => {
                           </div>
                         </div>
                       </div>
-                      {/* <div className="">
-                        <img src="../../assets/profile.png" />
-                      </div>
-                      <div className="">
-                        <img src="../../assets/profile.png" />
-                      </div>
-                      <div className="">
-                        <img src="../../assets/profile.png" />
-                      </div>
-                      <div className="">
-                        <img src="../../assets/profile.png" />
-                      </div>
-                      <div className="">
-                        <img src="../../assets/profile.png" />
-                      </div> */}
                     </div>
                   </div>
 
@@ -407,13 +392,250 @@ const Portfolio = ({ props }, ref) => {
               </div>
             </TabPanel>
             <TabPanel>
-              <h2>Any content 2</h2>
+              <div className="image-container">
+                <div className="mt-[70px]">
+                  <div>
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 mx-[16px] lg_res:mx-0 ">
+                      <div
+                        className="relative cursor-pointer"
+                        onClick={handleopenClick}
+                      >
+                        <img src="../../assets/1.png" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="relative cursor-pointer"
+                        onClick={handleopenClick1}
+                      >
+                        <img src="../../assets/5.png" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="relative cursor-pointer"
+                        onClick={handleopenClick2}
+                      >
+                        <img src="../../assets/13.png" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="relative cursor-pointer"
+                        onClick={handleopenClick3}
+                      >
+                        <img src="../../assets/16.png" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={[
+                      { src: "../../assets/1.png" },
+                      { src: "../../assets/2.png" },
+                      { src: "../../assets/3.png" },
+                      { src: "../../assets/4.png" },
+                    ]}
+                  />
+                  <Lightbox
+                    open={open1}
+                    close={() => setOpen1(false)}
+                    slides={[
+                      { src: "../../assets/5.png" },
+                      { src: "../../assets/6.png" },
+                      { src: "../../assets/7.png" },
+                      { src: "../../assets/8.png" },
+                      { src: "../../assets/9.png" },
+                      { src: "../../assets/10.png" },
+                      { src: "../../assets/11.png" },
+                      { src: "../../assets/12.png" },
+                    ]}
+                  />
+                  <Lightbox
+                    open={open2}
+                    close={() => setOpen2(false)}
+                    slides={[
+                      { src: "../../assets/13.png" },
+                      { src: "../../assets/14.png" },
+                      { src: "../../assets/15.png" },
+                    ]}
+                  />
+                  <Lightbox
+                    open={open3}
+                    close={() => setOpen3(false)}
+                    slides={[
+                      { src: "../../assets/16.png" },
+                      { src: "../../assets/17.png" },
+                      { src: "../../assets/18.png" },
+                    ]}
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <a
+                  className="py-2.5 px-5 rounded-md mt-8 block bg-[#414141] text-[#FFFFFF] font-mont
+                        font-normal text-base  hover:bg-slate-600  hover:text-[#f5f5f5] duration-300"
+                  href="https://github.com/rezowan311410"
+                >
+                  Visit my GitHub
+                </a>
+              </div>
             </TabPanel>
             <TabPanel>
-              <h2>Any content 3</h2>
+              <div className="image-container ">
+                <div className="mt-[70px] ">
+                  <div>
+                    <div className="grid grid-cols-2 lg:grid-cols-1 w-[400px] gap-1 mx-[16px] lg_res:mx-0  ">
+                      <div
+                        className="relative cursor-pointer "
+                        onClick={handleopenClick}
+                      >
+                        <img src="../../assets/1.png" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Lightbox
+                    open={open}
+                    close={() => setOpen(false)}
+                    slides={[
+                      { src: "../../assets/1.png" },
+                      { src: "../../assets/2.png" },
+                      { src: "../../assets/3.png" },
+                      { src: "../../assets/4.png" },
+                    ]}
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <a
+                  className="py-2.5 px-5 rounded-md mt-8 block bg-[#414141] text-[#FFFFFF] font-mont
+                        font-normal text-base  hover:bg-slate-600  hover:text-[#f5f5f5] duration-300"
+                  href="https://github.com/rezowan311410"
+                >
+                  Visit my GitHub
+                </a>
+              </div>
             </TabPanel>
             <TabPanel>
-              <h2>Any content 4</h2>
+              <div className="image-container">
+                <div className="mt-[70px]">
+                  <div>
+                    <div className="grid grid-cols-2 lg:grid-cols-4  gap-1 mx-[16px] lg_res:mx-0 ">
+                      <div
+                        className="relative cursor-pointer"
+                        onClick={handleopenClick1}
+                      >
+                        <img src="../../assets/5.png" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Lightbox
+                    open={open1}
+                    close={() => setOpen1(false)}
+                    slides={[
+                      { src: "../../assets/5.png" },
+                      { src: "../../assets/6.png" },
+                      { src: "../../assets/7.png" },
+                      { src: "../../assets/8.png" },
+                      { src: "../../assets/9.png" },
+                      { src: "../../assets/10.png" },
+                      { src: "../../assets/11.png" },
+                      { src: "../../assets/12.png" },
+                    ]}
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <a
+                  className="py-2.5 px-5 rounded-md mt-8 block bg-[#414141] text-[#FFFFFF] font-mont
+                        font-normal text-base  hover:bg-slate-600  hover:text-[#f5f5f5] duration-300"
+                  href="https://github.com/rezowan311410"
+                >
+                  Visit my GitHub
+                </a>
+              </div>
             </TabPanel>
             <TabPanel>
               <h2>Any content 5</h2>
