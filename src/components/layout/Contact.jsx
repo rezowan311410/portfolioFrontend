@@ -148,7 +148,7 @@ const Contact = ({ porps }, ref) => {
             </>
           </div>
 
-          <div className="w-[50%]  lg:flex flex-wrap lg:justify-evenly mx-5 lg-mx-0  lg:mt-[-120px]">
+          <div className="w-[50%]  lg:flex flex-wrap lg:justify-evenly mx-5 lg-mx-0  lg:mt-[-120px] xl:ml-[130px]">
             <form onSubmit={onSubmit}>
               <input
                 onChange={(e) => setname(e.target.value)}

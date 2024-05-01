@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        container: "1140px",
+        container: "1280px",
       },
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],

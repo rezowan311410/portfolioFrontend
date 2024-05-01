@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { forwardRef, useEffect, useState } from "react";
 import { MdOutlineWebAsset } from "react-icons/md";
+import { SiTaichigraphics } from "react-icons/si";
 import Container from "./Container";
 const Service = ({ props }, ref) => {
   let [tittle, setTittle] = useState("");
@@ -114,7 +115,7 @@ const Service = ({ props }, ref) => {
                   className="w-9 h-9 m-auto group-hover:bg-[#494949]
                group-hover:rounded-full"
                 >
-                  <MdOutlineWebAsset
+                  <SiTaichigraphics
                     className="w-9 h-9 m-auto group-hover:bg-[#494949]
                group-hover:rounded-full text-slate-600 group-hover:text-[#D1D1D1]"
                   />

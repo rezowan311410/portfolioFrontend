@@ -51,7 +51,7 @@ const Banner = ({ props }, ref) => {
           </div>
         </div>
         <div className="lg:w-6/12">
-          <div className="lg:mt-[141px] lg:ml-[156px]">
+          <div className="lg:mt-[141px] lg:flex lg:justify-end">
             <Image
               className="hidden lg:block"
               imgsrc="../../assets/profile.png"

@@ -68,7 +68,7 @@ const About = ({ props }, ref) => {
               </div>
             </div>
           </div>
-          <div className="lg:w-[48%] hidden lg:block mt-16 ml-[104px]">
+          <div className="lg:w-[48%] hidden lg:block mt-16 ml-[150px]">
             <div className="flex  relative">
               <h2
                 className=' ml-[50px]  py-0.5 px-5 bg-[#979797] mt-6 after:h-[1px]

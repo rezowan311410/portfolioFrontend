@@ -537,7 +537,7 @@ const Portfolio = ({ props }, ref) => {
               <div className="image-container ">
                 <div className="mt-[70px] ">
                   <div>
-                    <div className="grid grid-cols-2 lg:grid-cols-1 w-[400px] gap-1 mx-[16px] lg_res:mx-0  ">
+                    <div className="grid grid-cols-2 lg:grid-cols-4  gap-1 mx-[16px] lg_res:mx-0  ">
                       <div
                         className="relative cursor-pointer "
                         onClick={handleopenClick}
