@@ -638,7 +638,59 @@ const Portfolio = ({ props }, ref) => {
               </div>
             </TabPanel>
             <TabPanel>
-              <h2>Any content 5</h2>
+              <div className="image-container">
+                <div className="mt-[70px]">
+                  <div>
+                    <div className="grid grid-cols-2 lg:grid-cols-4  gap-1 mx-[16px] lg_res:mx-0 ">
+                      <div
+                        className="relative cursor-pointer"
+                        onClick={handleopenClick1}
+                      >
+                        <img src="../../assets/21.jpg" />
+
+                        <div
+                          className="absolute top-2 left-2 right-2 bottom-2  opacity-0
+                        hover:opacity-70 transition delay-100 duration-300 ease-in-out bg-black"
+                        >
+                          <div className="flex justify-center align-items absolute top-[44%] left-[40%] cursor-pointer">
+                            <span className="text-[#f5f5f5]">
+                              <FaEye className="ml-[18px]" />
+                              <h3 className="font-mont font-normal text-sm mr-4">
+                                Click Me
+                              </h3>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Lightbox
+                    open={open1}
+                    close={() => setOpen1(false)}
+                    slides={[
+                      { src: "../../assets/21.jpg" },
+                      { src: "../../assets/19.jpg" },
+                      { src: "../../assets/20.jpg" },
+
+                      { src: "../../assets/22.jpg" },
+                      { src: "../../assets/23.jpg" },
+                      { src: "../../assets/24.jpg" },
+                      { src: "../../assets/25.jpg" },
+                      { src: "../../assets/26.jpg" },
+                    ]}
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <a
+                  className="py-2.5 px-5 rounded-md mt-8 block bg-[#414141] text-[#FFFFFF] font-mont
+                        font-normal text-base  hover:bg-slate-600  hover:text-[#f5f5f5] duration-300"
+                  href="https://github.com/rezowan311410"
+                >
+                  Visit my GitHub
+                </a>
+              </div>
             </TabPanel>
           </Tabs>
         </div>
