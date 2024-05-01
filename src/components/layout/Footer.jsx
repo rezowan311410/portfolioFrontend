@@ -35,7 +35,7 @@ const Footer = () => {
               <h2
                 onClick={() => handleLinkedin(index)}
                 className="font-mont font-normal
-                         text-[10px] contact_res:text-sm text-[10px] md:text-sm  text-[#929292] font-light lg:mr-[140px] py-[22px] cursor-pointer"
+                         text-[10px] contact_res:text-sm text-[10px] md:text-sm  text-[#929292] font-light lg:mr-[90px] py-[22px] cursor-pointer"
               >
                 HERE IS MY{" "}
                 <span className="text-[#36454F] font-bold">
