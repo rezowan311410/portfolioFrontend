@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        container: "1280px",
+        container: "1536px",
       },
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
@@ -29,6 +29,8 @@ export default {
         // => @media (min-width: 1024px) { ... }
 
         desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+        largDevice: "1536px",
         // => @media (min-width: 1280px) { ... }
       },
       spacing: {

@@ -25,7 +25,7 @@ const Banner = ({ props }, ref) => {
   }, []);
   return (
     <section ref={ref} className="bg-[#f5f5f5]">
-      <div className="flex max-w-container mx-auto">
+      <div className="flex max-w-container mx-auto px-5 2xl:px-8">
         <div className="lg:w-6/12 pb-10 pt-52 lg:pb-0 lg:pt-64 lg_res:pt-72 mx-5 lg_res:mx-0">
           <h2 className="font-mont text-base font-bold text-[#919191]">
             HELLO, MY NAME IS

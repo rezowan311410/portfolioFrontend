@@ -311,7 +311,7 @@ const Navbar = () => {
           isNavbarFixed ? "fixe pt-6 pb-6" : ""
         }`}
       >
-        <div className="max-w-container mx-auto">
+        <div className="max-w-container mx-auto px-5 2xl:px-8  ">
           <div className="md:flex mx-5 lg_res:mx-0">
             <div className="flex">
               <div className="w-3/12 w-44 h-12">
